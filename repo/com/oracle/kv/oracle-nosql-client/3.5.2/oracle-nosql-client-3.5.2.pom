@@ -1,0 +1,56 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.oracle.kv</groupId>
+    <artifactId>oracle-nosql-client</artifactId>
+    <packaging>jar</packaging>
+    <description>NoSQL Database Client - These build artifacts supply both build and runtime support for the client side of the Oracle NoSQL Database.  It is assumed that the user has already downloaded, installed, and is running a server to do anything meaningful with this client.</description>
+    <version>3.5.2</version>
+    <name>Oracle NoSQL Database Client</name>
+    <organization>
+        <name>Oracle Corporation</name>
+    </organization>
+    <url>http://www.oracle.com/technetwork/database/database-technologies/nosqldb
+    </url>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <scm>
+        <url>http://www.oracle.com/technetwork/database/database-technologies/nosqldb/downloads/index.html</url>
+        <connection>http://www.oracle.com/technetwork/database/database-technologies/nosqldb/downloads/index.html</connection>
+    </scm>
+    <developers>
+        <developer>
+            <name></name>
+            <organization>Oracle Corporation</organization>
+        </developer>
+    </developers>
+
+   
+    <dependencies>
+	 <dependency>
+	    <groupId>org.codehaus.jackson</groupId>
+    	    <artifactId>jackson-core-asl</artifactId>
+    	    <version>1.9.3</version>
+    	</dependency>
+
+	<dependency>
+	    <groupId>org.codehaus.jackson</groupId>
+    	    <artifactId>jackson-mapper-asl</artifactId>
+    	    <version>1.9.3</version>
+	</dependency>
+
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro-service-archetype</artifactId>
+            <version>1.7.6</version>
+        </dependency>
+    </dependencies>
+</project>

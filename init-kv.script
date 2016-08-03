@@ -1,0 +1,7 @@
+connect store -host localhost -port 5000 -name kvstore
+ddl add-schema -file src/main/resources/MyType.avsc
+table create -name MyType
+add-schema -name com.example.oracle_nosql_testcase.MyType
+primary-key -field id
+exit
+plan add-table -name MyType -wait

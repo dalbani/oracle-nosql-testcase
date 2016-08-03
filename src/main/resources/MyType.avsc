@@ -1,0 +1,13 @@
+{
+  "namespace": "com.example.oracle_nosql_testcase",
+  "type": "record",
+  "name": "MyType",
+  "doc": "",
+  "fields": [
+     { "name": "id", "type": "string", "default": "" },
+     { "name": "prop1", "type": "string", "default": "" },
+     { "name": "prop2", "type": "int", "default": 0 }
+  ]
+}
+
+
